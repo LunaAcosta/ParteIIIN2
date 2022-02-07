@@ -8,7 +8,7 @@ fun main(){
     val array4 = arrayOf<Int>(99,100,200)
     val array5 = arrayOf<Int>()
     val array6 = arrayOf<Int>(1500,2500,3500)
-    val array7 = arrayOf<Int>(1,1,1)
+    val array7 = arrayOf<Int>(2,1,1)
     val array8 = arrayOf<Int>()
     val array9= arrayOf<Int>()
     val array10 = arrayOf<Int>(900,900,800)
@@ -25,7 +25,7 @@ fun main(){
     println("Test3 pasando ${prueba3==60}")
 
     val prueba4 = sumarrays(array4)
-    println("Test4 pasando ${prueba4==299}")
+    println("Test4 pasando ${prueba4==399}")
 
     val prueba5 = sumarrays(array5)
     println("Test5 pasando ${prueba5==-1}")
@@ -34,7 +34,7 @@ fun main(){
     println("Test6 pasando ${prueba6==7500}")
 
     val prueba7 = sumarrays(array7)
-    println("Test7 pasando ${prueba7==3}")
+    println("Test7 pasando ${prueba7==4}")
 
     val prueba8 = sumarrays(array8)
     println("Test8 pasando ${prueba8==-1}")
